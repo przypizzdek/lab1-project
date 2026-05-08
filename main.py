@@ -1,5 +1,6 @@
 import tkinter as tk
 from models import Motory,Zwykle_samochody, Ciezarowki
+from reque import Wczytywanie_danych
 class interfejs():
 
     biezacy_typ = ''
@@ -32,8 +33,18 @@ class interfejs():
         self.entry_brend = tk.Entry()
         self.entry_brend.place(x=X-50, y=Y+180)
 
+        self.label_model = tk.Label(text="Model")
+        self.label_model.place(x=X, y=Y + 210)
+        self.entry_model = tk.Entry()
+        self.entry_model.place(x=X - 50, y=Y + 240)
+
+        self.label_rok = tk.Label(text="Year")
+        self.label_rok.place(x=X, y=Y + 270)
+        self.entry_rok = tk.Entry()
+        self.entry_rok.place(x=X - 50, y=Y + 300)
+
         self.nacisk_znalesc = tk.Button(text="Znalesc", command=self.znalesc_call_back)
-        self.nacisk_znalesc.place(x=X-10, y=Y+210)
+        self.nacisk_znalesc.place(x=X-10, y=Y+480)
 
 
 
@@ -94,6 +105,13 @@ class interfejs():
         min_cena = self.entry_cena_od.get()
         max_cena = self.entry_cena_do.get()
         brend = self.entry_brend.get()
+        model = self.entry_model.get()
+        rok = self.entry_rok.get()
+
+        battery_capacity = ""
+        charge_power = ""
+        engine_size = ""
+        power = ""
 
         lista_klasow = {
             "Motory": Motory,
@@ -106,11 +124,12 @@ class interfejs():
         if typ == "0x76xc8e7r8rt621":
             for n in lista_klasow:
                 Klas = lista_klasow[n]
-                for i in Klas.znalesc(min_cena, max_cena, brend):
+                for i in Klas.znalesc(min_cena, max_cena, brend,model, rok):
                     result_lista.append(i)
         elif typ in lista_klasow:
+            Wczytywanie_danych(typ, brend, model, rok, battery_capacity, charge_power, engine_size, power)
             Klas = lista_klasow[typ]
-            result_lista = Klas.znalesc(min_cena, max_cena, brend)
+            result_lista = Klas.znalesc(min_cena, max_cena, brend,model, rok)
 
         interfejs.przeszla_lista = result_lista
 
@@ -122,8 +141,12 @@ class interfejs():
             label_typw.place(x=X, y=Y)
             label_cenaw = tk.Label(text=i["cena"])
             label_cenaw.place(x=X, y=Y + 20)
-            label_typw = tk.Label(text=i["brend"])
-            label_typw.place(x=X, y=Y + 40)
+            label_brendw = tk.Label(text=i["brend"])
+            label_brendw.place(x=X, y=Y + 40)
+            label_modelw = tk.Label(text=i["model"])
+            label_modelw.place(x=X, y=Y + 60)
+            label_rokw = tk.Label(text=i["rok"])
+            label_rokw.place(x=X, y=Y + 80)
             X += 150
             w+=1
             if w == 5:
