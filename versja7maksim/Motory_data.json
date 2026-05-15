@@ -1,0 +1,242 @@
+[
+    {
+        "brend": "Ajp",
+        "typ": "Motory",
+        "model": "SPR 250",
+        "year": "2022",
+        "engine": "",
+        "power": null
+    },
+    {
+        "brend": "Ajs",
+        "typ": "Motory",
+        "model": "71 Desert Scrambler 125",
+        "year": "2022",
+        "engine": "",
+        "power": "9.8 HP (7.2  kW)) @ 9000 RPM"
+    },
+    {
+        "brend": "Ajs",
+        "typ": "Motory",
+        "model": "Cadwell 125",
+        "year": "2022",
+        "engine": "",
+        "power": "9.9 HP (7.2  kW)) @ 9000 RPM"
+    },
+    {
+        "brend": "Ajs",
+        "typ": "Motory",
+        "model": "Insetto 125",
+        "year": "2022",
+        "engine": "",
+        "power": "8.6 HP (6.3  kW)) @ 7500 RPM"
+    },
+    {
+        "brend": "Ajs",
+        "typ": "Motory",
+        "model": "Tempest Roadster 125",
+        "year": "2022",
+        "engine": "",
+        "power": "9.5 HP (6.9  kW)) @ 8500 RPM"
+    },
+    {
+        "brend": "Ajs",
+        "typ": "Motory",
+        "model": "Tempest Scrambler 125",
+        "year": "2022",
+        "engine": "",
+        "power": "9.9 HP (7.2  kW)) @ 9000 RPM"
+    },
+    {
+        "brend": "Access",
+        "typ": "Motory",
+        "model": "Shade Xtreme 650 ",
+        "year": "2022",
+        "engine": "",
+        "power": "45.6 HP (33.3  kW))"
+    },
+    {
+        "brend": "Aeon",
+        "typ": "Motory",
+        "model": "Cobra 400 Supermoto",
+        "year": "2022",
+        "engine": "",
+        "power": "20.1 HP (14.7  kW)) @ 8500 RPM"
+    },
+    {
+        "brend": "Aprilia",
+        "typ": "Motory",
+        "model": "Dorsoduro 900",
+        "year": "2022",
+        "engine": "",
+        "power": "95.2 HP (69.5  kW)) @ 8750 RPM"
+    },
+    {
+        "brend": "Aprilia",
+        "typ": "Motory",
+        "model": "RS 125",
+        "year": "2022",
+        "engine": "",
+        "power": "14.8 HP (10.8  kW)) @ 10000 RPM"
+    },
+    {
+        "brend": "Aprilia",
+        "typ": "Motory",
+        "model": "RS 125 GP Replica",
+        "year": "2022",
+        "engine": "",
+        "power": "15.0 HP (10.9  kW)) @ 10500 RPM"
+    },
+    {
+        "brend": "Aprilia",
+        "typ": "Motory",
+        "model": "RS 660",
+        "year": "2022",
+        "engine": "",
+        "power": "100.0 HP (73.0  kW)) @ 10500 RPM"
+    },
+    {
+        "brend": "Aprilia",
+        "typ": "Motory",
+        "model": "RS 660 35kW",
+        "year": "2022",
+        "engine": "",
+        "power": "46.9 HP (34.3  kW)) @ 6000 RPM"
+    },
+    {
+        "brend": "Aprilia",
+        "typ": "Motory",
+        "model": "RS 660 Limited",
+        "year": "2022",
+        "engine": "",
+        "power": "100.0 HP (73.0  kW)) @ 10500 RPM"
+    },
+    {
+        "brend": "Aprilia",
+        "typ": "Motory",
+        "model": "RSV4",
+        "year": "2022",
+        "engine": "",
+        "power": "217.0 HP (158.4  kW)) @ 13000 RPM"
+    },
+    {
+        "brend": "Aprilia",
+        "typ": "Motory",
+        "model": "RSV4 Factory",
+        "year": "2022",
+        "engine": "",
+        "power": "217.0 HP (158.4  kW)) @ 13200 RPM"
+    },
+    {
+        "brend": "Aprilia",
+        "typ": "Motory",
+        "model": "RX 125",
+        "year": "2022",
+        "engine": "",
+        "power": "15.0 HP (10.9  kW)) @ 10000 RPM"
+    },
+    {
+        "brend": "Aprilia",
+        "typ": "Motory",
+        "model": "RX 50",
+        "year": "2022",
+        "engine": "",
+        "power": null
+    },
+    {
+        "brend": "Aprilia",
+        "typ": "Motory",
+        "model": "RX 50 Factory",
+        "year": "2022",
+        "engine": "",
+        "power": null
+    },
+    {
+        "brend": "Aprilia",
+        "typ": "Motory",
+        "model": "SR GT 125",
+        "year": "2022",
+        "engine": "",
+        "power": "14.8 HP (10.8  kW)) @ 8700 RPM"
+    },
+    {
+        "brend": "Aprilia",
+        "typ": "Motory",
+        "model": "SR GT 200",
+        "year": "2022",
+        "engine": "",
+        "power": "17.4 HP (12.7  kW)) @ 8500 RPM"
+    },
+    {
+        "brend": "Aprilia",
+        "typ": "Motory",
+        "model": "SX 125",
+        "year": "2022",
+        "engine": "",
+        "power": "15.0 HP (10.9  kW)) @ 10000 RPM"
+    },
+    {
+        "brend": "Aprilia",
+        "typ": "Motory",
+        "model": "SX 50",
+        "year": "2022",
+        "engine": "",
+        "power": null
+    },
+    {
+        "brend": "Aprilia",
+        "typ": "Motory",
+        "model": "SX 50 Factory",
+        "year": "2022",
+        "engine": "",
+        "power": null
+    },
+    {
+        "brend": "Aprilia",
+        "typ": "Motory",
+        "model": "SXR 50",
+        "year": "2022",
+        "engine": "",
+        "power": "3.2 HP (2.3  kW)) @ 7000 RPM"
+    },
+    {
+        "brend": "Aprilia",
+        "typ": "Motory",
+        "model": "Scarabeo 50 Classic 2T",
+        "year": "2022",
+        "engine": "",
+        "power": "3.0 HP (2.2  kW)) @ 7000 RPM"
+    },
+    {
+        "brend": "Aprilia",
+        "typ": "Motory",
+        "model": "Scarabeo 50 Street 2T",
+        "year": "2022",
+        "engine": "",
+        "power": "3.0 HP (2.2  kW)) @ 7000 RPM"
+    },
+    {
+        "brend": "Aprilia",
+        "typ": "Motory",
+        "model": "Shiver 900",
+        "year": "2022",
+        "engine": "",
+        "power": "95.0 HP (69.3  kW)) @ 8750 RPM"
+    },
+    {
+        "brend": "Aprilia",
+        "typ": "Motory",
+        "model": "Shiver 900 35kW",
+        "year": "2022",
+        "engine": "",
+        "power": "46.9 HP (34.3  kW)) @ 8000 RPM"
+    },
+    {
+        "brend": "Aprilia",
+        "typ": "Motory",
+        "model": "Tuareg 660",
+        "year": "2022",
+        "engine": "",
+        "power": "80.0 HP (58.4  kW)) @ 9250 RPM"
+    }
+]
